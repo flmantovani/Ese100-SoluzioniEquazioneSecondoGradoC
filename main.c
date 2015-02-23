@@ -18,6 +18,8 @@ int main(int argc, char** argv) {
     printf("Inserisci coefficente c:");
     scanf("%f",&c);
     
+    x1 = calcolox1(a,b,c);
+    x2 = calcolox2(a,b,c);
     
 
     
