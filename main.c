@@ -20,11 +20,9 @@ int main(int argc, char** argv) {
     
     x1 = calcolox1(a,b,c);
     x2 = calcolox2(a,b,c);
+       
     
-
-    
-    
-    
+    printf("\nx1: %s\nx2: %s\n", formatComplexNumber(x1), formatComplexNumber(x2));
     
     return (EXIT_SUCCESS);
 }
